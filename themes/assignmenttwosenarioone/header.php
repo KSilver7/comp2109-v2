@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?> 
 <!-- Linking my stylesheet-->
-        <link rel="stylesheet" href="<?php echo esc_url( home_url( 'wp-content/themes/assignmenttwosenarioone/css/custom-styles.css' ) ); ?>">
+        <!-- <link rel="stylesheet" href="<?php echo esc_url( home_url( 'wp-content/themes/assignmenttwosenarioone/css/custom-styles.css' ) ); ?>"> -->
     </head>
     <body <?php body_class(); ?>>
         <header>
