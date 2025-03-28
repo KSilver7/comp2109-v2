@@ -177,15 +177,15 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
 /* Removes all the product data tabs */
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
-/* Remoces all the product attributes */
+/* Removes all the product attributes */
 remove_action( 'woocommerce_product_additional_information', 'wc_display_product_attributes', 10 );
-/* Remoces all the up-sale products */
+/* Removes all the up-sale products */
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_display', 15 );
 /* Removes all the related products */
 remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 /* Removes all the single product variations */
 remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation', 10 );
-/* Remoces all the single product metadata, example SKU */
+/* Removes all the single product metadata, example SKU */
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 /* Now let's add our product details back, but this time we'll change the order in which the information is displayed */
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 10 );
