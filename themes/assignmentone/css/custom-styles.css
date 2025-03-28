@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* This should be a normal css style sheet */
+/* Changing the box type */
+html {
+    box-sizing: border-box;
+}
+    *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Add styling for html for the document */
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: steelblue;
+    line-height: 1.4;
+    }
+
+.home {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 5px;
+    background-color: steelblue;
+}
+.home-row {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 5px;
+    background-color: skyblue;
+}
+.the-future-container {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 5px;
+    background-color: skyblue;
+}
+
+.home-row-two {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 5px;
+    background-color: skyblue;
+}
+h1 {
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    color: black;
+    background-color: rgb(145, 111, 246);
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header > div {
+        
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 5px;
+    background-color: skyblue;   
+}

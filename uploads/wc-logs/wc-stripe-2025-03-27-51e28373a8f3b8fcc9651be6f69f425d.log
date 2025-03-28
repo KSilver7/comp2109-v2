@@ -1,0 +1,2 @@
+2025-03-27T20:53:33+00:00 ERROR Error creating Stripe webhook. Mode: live. Reason: Invalid URL: http://winter-2025.local/wp-json/wc-stripe/v1/webhook. URLs in livemode must begin with "https://"
+2025-03-27T21:23:41+00:00 ERROR Error creating Stripe webhook. Mode: live. Reason: Invalid URL: http://winter-2025.local/wp-json/wc-stripe/v1/webhook. URLs in livemode must begin with "https://"
