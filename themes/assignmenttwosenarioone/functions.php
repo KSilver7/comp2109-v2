@@ -50,7 +50,7 @@ add_action( 'widgets_init', 'cmsclass_widgets_init' );
 // this turns on the supports for the page
 function the_future_init(){
     $args = array(
-        'label'     => 'The Future',
+        'label'     => 'Silver Books Shop',
         'public'    => true,
         'show_ui'   => true,
         'capability_type'   => 'post',
@@ -68,14 +68,14 @@ function the_future_init(){
             'page-attributes',
         )
     );
-    register_post_type('thefuture', $args);
+    register_post_type('silverbooksshop', $args);
 }
-add_action('init', 'the_future_init');
+add_action('init', 'silver_books_shop_init');
 // setting how many posts per page
-function the_future_shortcode(){
-    $query = new WP_Query(array('post_type' => 'thefuture', 'post_per_page' => 4, 'order' => 'asc'));
+function silver_books_shop_shortcode(){
+    $query = new WP_Query(array('post_type' => 'silverbooksshop', 'post_per_page' => 4, 'order' => 'asc'));
     while ($query -> have_posts()) : $query-> the_post(); ?>
-    <div class="the-future-container">
+    <div class="silver-book-shop-container">
         <div>
             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
         </div>
@@ -89,4 +89,4 @@ function the_future_shortcode(){
     endwhile;
     wp_reset_postdata();
 }
-add_shortcode('thefuture', 'the_future_shortcode');
+add_shortcode('silverbooksshop', 'silver_books_shop_shortcode');
