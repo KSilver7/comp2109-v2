@@ -4,7 +4,7 @@ $shopFeaturedImage = wp_get_attachement_image_src( get_post_thumbnail_id( wc_get
 ?>
 <section class="shop-masthead" style="background: url('<?php echo $shopFeaturedImage[0]; ?>');">
     <div>
-        <h1>Shop Page </h1>
+        <h1>Shop Page</h1>
     </div>
 </section>
 <section class="shop-body">
