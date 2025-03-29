@@ -90,18 +90,25 @@ function the_future_shortcode(){
     wp_reset_postdata();
 }
 add_shortcode('thefuture', 'the_future_shortcode');
+// end of a1 stuff Beginning of A2 stuff
 
-// Add in the supposet for woocommerce
-function assignmenttwosenarioone_add_woocommerce_support(){
+
+// Add in the support for woocommerce
+function customtheme_add_woocommerce_support(){
     add_theme_support( 'woocommerce' );
 }
-add_action( 'after_setup_theme', 'assignmenttwosenarioone_add_woocommerce_support' );
+add_action( 'after_setup_theme', 'customtheme_add_woocommerce_support' );
+
 // Add the cart functionality
 function enqueue_wc_cart_fragments() {
     wp_enqueue_script( 'wc-cart-fragments' );
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_wc_cart_fragments' );
-
+// Added this to deal with the variations
+function enqueue_variation_script(){
+    wp_enqueue_script('wc-add-to-cart-variation');
+}
+add_action('wp_enqueue_scripts', 'enqueue_variation_script');
 // Clear out the preset title, tabs, carts, product, etc
 // Remove....
 // The title
