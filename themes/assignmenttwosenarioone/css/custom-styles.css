@@ -54,6 +54,9 @@ a {
     color: black;
     cursor: pointer;
     list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
 }
 /* header > div {
         
@@ -64,19 +67,14 @@ a {
     margin: 5px;
     background-color: skyblue;   
 } */
-#menu-main2-container {
+
+header nav ul {
     list-style-type: none;
-}
-header nav ul li {
-    float: left;
-    position: relative;
-    right: 50%;
-    margin-left: 0.25em;
-    background:#ddd;
-}
-header nav a {
-    display: block;
-    padding: 0.75em;
-    color: #fff;
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

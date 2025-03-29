@@ -11,7 +11,7 @@
         <header>
             <div>
                 <a href="<?php echo esc_url( home_url() ); ?>">
-                    <img src="<?php echo esc_url( home_url( 'wp-content/uploads/2025/03/literature-book-page-clean-preview.jpg' ) ); ?>" alt="header logo">
+                    <img src="<?php echo esc_url( home_url( 'wp-content/uploads/2025/03/Books_icon.png' ) ); ?>" alt="header logo">
 <!-- Photo as a logo-->
                 </a>
             </div>
