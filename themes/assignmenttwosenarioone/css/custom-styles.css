@@ -54,6 +54,7 @@ html {
     color: black;
     background-color: rgb(145, 111, 246);
 } */
+ /* Targeting my anchor elements to take away their list styling etc.*/
 a {
     text-decoration: none;
     font-weight: bold;
@@ -99,6 +100,7 @@ header nav ul {
     position: relative;
     left: 50%; 
 }
+/*add some pretty styling like the box-shadow*/
 header nav ul li {
     float: left;
     position: relative;
@@ -119,11 +121,12 @@ header > div > a {
     text-align: center;
     display: block;
 }
+/* slight position shift*/
 .shop-masthead {
     position: relative;
     margin-top: 3rem;
 }
-
+/*this massive selector to change the colour of the product buttons*/
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce a.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce button.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button {
     font-size: 100%;
     margin: 0;
@@ -137,8 +140,7 @@ header > div > a {
     left: auto;
     color: #000000;
     background-color: #309be3;
-    box-shadow: 8px 2px 2px #f8c717;
-     
+    box-shadow: 8px 2px 2px #f8c717;     
 }
 .shop-masthead{
     text-decoration: underline #7f54b3;
