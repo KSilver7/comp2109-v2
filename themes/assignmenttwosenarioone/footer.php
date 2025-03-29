@@ -1,5 +1,5 @@
         <footer>
-            <!-- <section class="top-footer">
+            <section class="top-footer">
                 <div class="first widget-area">
                     <a href="<?php echo esc_url( home_url() ); ?>">
                         <?php dynamic_sidebar( 'footer-widget-area-one' ); ?>
@@ -13,8 +13,8 @@
                 </div>
                 <div class="fourth widget-area">
                     <?php dynamic_sidebar( 'footer-widget-area-four' ); ?>
-                </div> -->
-    <!-- I don't think I need a sidebar, but it's here just in case -->
+                </div>
+    <!-- a sidebar, it's here just in case -->
             </section>        
         </footer>
     </body>

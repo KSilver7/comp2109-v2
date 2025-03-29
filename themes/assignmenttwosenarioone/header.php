@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?> 
 <!-- Linking my stylesheet-->
-        <!-- <link rel="stylesheet" href="<?php echo esc_url( home_url( 'wp-content/themes/assignmenttwosenarioone/css/custom-styles.css' ) ); ?>"> -->
+        <link rel="stylesheet" href="<?php echo esc_url( home_url( 'wp-content/themes/assignmenttwosenarioonr/css/custom-styles.css' ) ); ?>">
     </head>
     <body <?php body_class(); ?>>
         <header>
             <div>
                 <a href="<?php echo esc_url( home_url() ); ?>">
-                    <img src="<?php echo esc_url( home_url( 'wp-content/uploads/2025/03/stack-of-books-1536x1072-1-300x300.jpg' ) ); ?>" alt="header logo">
+                    <img src="<?php echo esc_url( home_url( 'wp-content/uploads/2025/03/literature-book-page-clean-preview.jpg' ) ); ?>" alt="header logo">
 <!-- Photo as a logo-->
                 </a>
             </div>

@@ -1,12 +1,12 @@
 <?php
 /**
- * Template Name: A2 Homepage
- * Template Post Type: page, silverbooksshop
+ * Template Name: A1 Homepage
+ * Template Post Type: page, thefuture
  */
 get_header();
 ?>
 <main>
-<!-- This is the homepage template for Assignment 2-->
+<!-- This is the homepage template for Assignment 1-->
     <section class="home-masthead" style="background-image: url('<?php echo wp_kses_post(get_field('masthead_image')); ?>')">
         <div>
             <h1><?php echo wp_kses_post(get_field('masthead_title'));?></h1>
@@ -29,7 +29,7 @@ get_header();
         </div>
     </section>
     <section class="custom-plugin-section row">
-        <?php echo do_shortcode("[silverbooksshop]"); ?>
+        <?php echo do_shortcode("[thefuture]"); ?>
     </section>
 </main>
 <?php
