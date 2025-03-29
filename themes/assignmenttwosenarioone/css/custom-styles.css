@@ -12,48 +12,50 @@ html {
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    background-color: steelblue;
+    background-color: rgb(211, 230, 246);
     line-height: 1.4;
     }
-/* 
-.home {
+
+/* .home {
     border: 2px solid black;
     padding: 1rem;
     margin: 5px;
     background-color: steelblue;
-}
-.home-row {
+} */
+/* .home-row {
     border: 2px solid black;
     padding: 1rem;
     margin: 5px;
     background-color: skyblue;
-}
-.the-future-container {
+} */
+/* .the-future-container {
     border: 2px solid black;
     padding: 1rem;
     margin: 5px;
     background-color: skyblue;
-}
+} */
 
-.home-row-two {
+/* .home-row-two {
     border: 2px solid black;
     padding: 1rem;
     margin: 5px;
     background-color: skyblue;
-}
-h1 {
+} */
+/* h1 {
     border: 2px solid black;
     border-radius: 30px;
     text-align: center;
     color: black;
     background-color: rgb(145, 111, 246);
-}
+} */
 a {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    cursor: pointer;
+    list-style-type: none;
 }
-header > div {
+/* header > div {
         
     text-align: center;
     color: black;
@@ -62,3 +64,19 @@ header > div {
     margin: 5px;
     background-color: skyblue;   
 } */
+#menu-main2-container {
+    list-style-type: none;
+}
+header nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+    margin-left: 0.25em;
+    background:#ddd;
+}
+header nav a {
+    display: block;
+    padding: 0.75em;
+    color: #fff;
+    text-decoration: none;
+}

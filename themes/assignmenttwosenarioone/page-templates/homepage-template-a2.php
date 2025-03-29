@@ -29,7 +29,7 @@ get_header();
         </div>
     </section>
     <section class="custom-plugin-section row">
-        <?php echo do_shortcode("[silverbooksshop]"); ?>
+        <!-- <?php echo do_shortcode("[silverbooksshop]"); ?> -->
     </section>
 </main>
 <?php
