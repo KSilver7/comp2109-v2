@@ -15,7 +15,12 @@ html {
     background-color: rgb(211, 230, 246);
     line-height: 1.4;
     margin-top: 0;
-    }
+    scroll-behavior: smooth;
+}
+/* wanted to see if this would work */
+.product-template-default header {
+    position: relative;
+}
 
 /* .home {
     border: 2px solid black;
@@ -100,6 +105,8 @@ header nav ul li {
     right: 50%;
     margin-left: 0.25em;
     background:#f8c717;
+    box-shadow: 8px 2px 2px #309be3;
+    border-radius: 3px;  
 }
 header nav a {
     display: block;
@@ -108,11 +115,43 @@ header nav a {
     text-decoration: none;
 }
 header > div > a {
-    width: stretch;
+    width: 100%;
     text-align: center;
     display: block;
 }
 .shop-masthead {
     position: relative;
     margin-top: 3rem;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce #respond input#submit, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce a.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce button.button, :where(body:not(.woocommerce-block-theme-has-button-styles)):where(:not(.edit-post-visual-editor)) .woocommerce input.button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;    
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #000000;
+    background-color: #309be3;
+    box-shadow: 8px 2px 2px #f8c717;
+     
+}
+.shop-masthead{
+    text-decoration: underline #7f54b3;
+}
+#menu-main2.menu {
+    position: relative;
+    top: 0px;
+    border-radius: 3px;
+    /* margin-top: 3rem; */
+}
+/* Trying to catch the aria-current to style*/
+[aria-current]:not([aria-current="false"]) {
+    font-weight: bold;
+    background-color: #7f54b3;
+    border-radius: 3px;  
 }
