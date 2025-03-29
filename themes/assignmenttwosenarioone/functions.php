@@ -143,9 +143,11 @@ add_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_prod
 
 add_action( 'woocommerce_product_additional_information', 'wc_display_product_attributes', 15 );
 
-add_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
-
 add_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 15 );
+
+add_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 15 );
+
+
 // add woocommerce support
 function web_add_woocommerce_support() {
     add_theme_support( 'woocommerce' );
